@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-article-preview-component-with-flexbox-and-animations-nRTQGwI3uv)
 - Live Site URL: [Article Preview](https://article-preview-alejandro.netlify.app)
 
 ## My process
