@@ -1,0 +1,68 @@
+@media (max-width: 26rem) {
+  .container {
+    margin: 4.8rem auto;
+  }
+
+  .article-box {
+    flex-direction: column;
+    max-width: 33rem;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .article-img {
+    max-height: 20rem;
+  }
+
+  .article-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+
+  .article-info {
+    position: relative;
+    padding: 3.6rem 3.6rem 2rem 3rem;
+    border-radius: 0;
+    z-index: 1;
+  }
+
+  .article-heading {
+    font-size: 1.65rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .article-text {
+    padding-right: 0.6rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .article-author {
+    position: unset;
+  }
+
+  .share-btn {
+    z-index: 3;
+  }
+
+  .share-box {
+    top: 100%;
+    right: 0;
+    left: 0;
+    justify-content: left;
+    padding: 2.6rem 3.2rem;
+    border-radius: 0;
+    z-index: 2;
+    animation: none;
+    transition: transform 0.3s, visibility 0.3s;
+  }
+
+  .open {
+    animation: none;
+    transform: translateY(-100%);
+  }
+
+  .share-box::after {
+    display: none;
+  }
+}
